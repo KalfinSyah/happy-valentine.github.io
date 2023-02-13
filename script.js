@@ -10,6 +10,9 @@ enter.addEventListener('click', function(){
     if(pass_input.value == "rifkacantik") {
         pass.style.display = 'none';
         container.style.display = 'grid';
+    } else {
+        pass.firstElementChild.style.display = 'unset';
+        pass.firstElementChild.nextElementSibling.value = '';
     }
 });
 

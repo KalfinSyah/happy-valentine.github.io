@@ -9,15 +9,20 @@ body {
 }
 
 .pass {
-    background-color: #f15397;
-    box-shadow: 12px 12px 4px -3px #ff006f2d,
-                -12px -12px 4px -3px #ff006f2d;
+    background-color: #e0b9ca;
+    box-shadow: 12px 12px 4px -3px #e0b9ca2d,
+                -12px -12px 4px -3px #e0b9ca2d;
     display: flex;
         flex-direction: column;
         gap: 10px;
-    margin: 40vh auto 0 auto;
+    margin: 30vh auto 0 auto;
     padding: 10px 10px 10px;
     width: fit-content;
+}
+.pass h5 {
+    color: #c73737;
+    display: none;
+    text-align: center;
 }
 .pass input {
     margin: 0 auto 0 auto;
@@ -50,12 +55,14 @@ body {
 .container .happy_valentine .title {
     display: flex;
         justify-content: center;
+    margin: 0 0 10px 0;
 }
 .container .happy_valentine .title img {
     margin: 0 0 0 5px;
     width: 20px;
 }
 .container .happy_valentine p {
+    font-size: small;
     text-align: center;
 }
 .container .music {
@@ -98,7 +105,7 @@ body {
     width: 24vw;
 }
 .container .figure_cont .small_pic img:hover {
-    border: 5px solid #f15397;
+    border: 3px solid #f15397;
     filter: contrast(130%);
 }
 .container .figure_cont .small_pic img.active {
